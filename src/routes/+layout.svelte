@@ -1,8 +1,10 @@
 <script>
+	// Supports weights 100-900
+	import '@fontsource-variable/dm-sans';
+	import '../app.css';
 	import { PrismicPreview } from '@prismicio/svelte/kit';
 	import { page } from '$app/stores';
 	import { repositoryName } from '$lib/prismicio';
-	import '../app.css';
 </script>
 
 <svelte:head>
