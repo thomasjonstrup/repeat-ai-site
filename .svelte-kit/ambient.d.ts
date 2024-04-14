@@ -75,6 +75,7 @@ declare module '$env/static/private' {
 	export const npm_lifecycle_event: string;
 	export const npm_lifecycle_script: string;
 	export const npm_node_execpath: string;
+	export const npm_package_dependencies_clsx: string;
 	export const npm_package_dependencies__fontsource_variable_dm_sans: string;
 	export const npm_package_dependencies__prismicio_client: string;
 	export const npm_package_dependencies__prismicio_svelte: string;
@@ -231,6 +232,7 @@ declare module '$env/dynamic/private' {
 		npm_lifecycle_event: string;
 		npm_lifecycle_script: string;
 		npm_node_execpath: string;
+		npm_package_dependencies_clsx: string;
 		npm_package_dependencies__fontsource_variable_dm_sans: string;
 		npm_package_dependencies__prismicio_client: string;
 		npm_package_dependencies__prismicio_svelte: string;
