@@ -38,8 +38,6 @@ declare module '$env/static/private' {
 	export const DriverData: string;
 	export const EDITOR: string;
 	export const FORCE_COLOR: string;
-	export const FPS_BROWSER_APP_PROFILE_STRING: string;
-	export const FPS_BROWSER_USER_PROFILE_STRING: string;
 	export const FP_NO_HOST_CHECK: string;
 	export const GIT_ASKPASS: string;
 	export const HOME: string;
@@ -196,8 +194,6 @@ declare module '$env/dynamic/private' {
 		DriverData: string;
 		EDITOR: string;
 		FORCE_COLOR: string;
-		FPS_BROWSER_APP_PROFILE_STRING: string;
-		FPS_BROWSER_USER_PROFILE_STRING: string;
 		FP_NO_HOST_CHECK: string;
 		GIT_ASKPASS: string;
 		HOME: string;
